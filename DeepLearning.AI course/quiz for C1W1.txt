@@ -1,0 +1,20 @@
+1 What is the difference between traditional programming and Machine Learning?
+In traditional programming, a programmer has to formulate or code rules manually, whereas, in Machine Learning, the algorithm automatically formulates the rules from the data.
+
+2 What do we call the process of telling the computer what the data represents (i.e. this data is for walking, this data is for running)?
+Labelling the Data
+
+3 What is a Dense layer?
+A layer of connected neurons
+
+4 How do you measure how good the current ‘guess’ is?
+Using the Loss function
+
+5 What does the optimizer do?
+Generates a new and improved guess
+
+6 What is Convergence?
+The process of getting very close to the correct answer
+
+7 What does model.fit do?
+It trains the neural network to fit one set of values to another

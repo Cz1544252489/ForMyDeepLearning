@@ -1,0 +1,17 @@
+1 What is the resolution of o the 70,000 images from the Fashion MNIST dataset?
+28x28 Greyscale
+
+2 Why are there 10 output neurons in the Neural Network used as an example for the Computer Vision Problem?
+There are 10 different labels
+
+3 What does Relu do?
+It only returns x if x is greater than zero
+
+4 Why do you split data into training and test sets?
+To test a network with previously unseen data
+
+5 True or False: The on_epoch_end function sends a logs object with lots of great information about the current state of training at the start of every epoch
+False
+
+6 Why do you set the callbacks= parameter in your fit function?
+So, on every epoch you can call back to a code function
