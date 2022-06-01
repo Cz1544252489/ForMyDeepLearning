@@ -1,3 +1,4 @@
+# Tips: DO NOT USE TAB instead of two or four space
 function:
 
 type()  for variable`s type of class
@@ -18,3 +19,8 @@ string method:
   lstrip(), rstrip(), strip(), #this three are in order to delete blankspace
   startswith(), # This one is to judge whether a string starts with a kind of special substring 
 
+file process:
+  open(filename, mothod), read()
+  
+  
+  
