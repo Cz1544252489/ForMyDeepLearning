@@ -1,0 +1,3 @@
+function:
+
+type()  for variable`s type of class
