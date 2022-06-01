@@ -5,7 +5,8 @@ type()  for variable`s type of class
 input()  for getting a variable from keyboard to console 
 
 try and except give a chance to testing and tracebacking
-  Useage: when it runs exp1, exp2 succesfully exp3 isn`t activated and it fails to run exp1 and skip the exp2 then activate exp3
+  Useage: when it runs exp1, exp2 succesfully exp3 isn`t executed and it fails to run exp1 
+          and skip the exp2 then exp3 will be executed
   try: 
     exp1
     exp2
