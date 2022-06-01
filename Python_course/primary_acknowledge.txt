@@ -13,5 +13,8 @@ try and except give a chance to testing and tracebacking
   except:
     exp3
 
-
+string method:
+  lower(), upper(), capitalize(), find(), replace(), 
+  lstrip(), rstrip(), strip(), #this three are in order to delete blankspace
+  startswith(), # This one is to judge whether a string starts with a kind of special substring 
 
