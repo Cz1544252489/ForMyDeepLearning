@@ -1,3 +1,5 @@
 function:
 
 type()  for variable`s type of class
+
+input()  for getting a variable from keyboard to console 
