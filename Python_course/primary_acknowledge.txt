@@ -50,3 +50,7 @@ Regular Expressions:
   "?" for non-greed match
   "[0-9]+" for one or more digits
   "[AEIOU]+" for one or more uppercases
+  
+Representing Simple Strings
+  funcion:
+  ord() tells the numeric value of a simple ASCII character
