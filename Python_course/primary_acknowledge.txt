@@ -28,5 +28,13 @@ data structure:
   
 Regular Expressions:
   import er
-  Using re.search() and find()
-  
+  Using re.search() , find() and findall()
+  "^" for the startswith
+  ":" for the last character match
+  "." for any character
+  ".*" for any character many times
+  ".+" for one or more characters
+  "?" for non-greed match
+  "[0-9]+" for one or more digits
+  "[AEIOU]+" for one or more uppercases
+  "\S" for at least one whitespace character
