@@ -23,4 +23,8 @@ file process:
   open(filename, mothod), read()
   
   
+data structure:
+   list, tuple, dictionary
+  
+  
   
