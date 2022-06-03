@@ -24,7 +24,7 @@ file process:
   
   
 data structure:
-   list, tuple, dictionary
+   list, tuple, dictionary # 列表，元组，字典
   
   
   
