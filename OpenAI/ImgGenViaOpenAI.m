@@ -3,12 +3,12 @@ function I = ImgGenViaOpenAI(description,n,api_key)
 %  via openai api in 2022/12/9
 %%  Paramter
 % description is a string or characters list
-% n is a integer and gets a big image with n-by-n sub images
+% n is a integer and gets a big image with n-by-n sub images(1024*1024)
 % And with the limitation of API, n is less than 4
 % api_key gets from the webpage openai.com
 %% Input test
 if ~isstring(description)&&~ischar(description) , error("wrong description!"); end
-if ~isinteger(uint8(n))||(isinteger(n)&&(n<1||n>=4)), error("wrong n!"); end
+if ~isinteger(uint8(n))||(isinteger(uint8(n))&&(n<1||n>=4)), error("wrong n!"); end
 if ~isstring(api_key)&&~ischar(api_key) , error("wrong api_key!"); end
 %% python environment test
 pe = pyenv;% need a python environment
