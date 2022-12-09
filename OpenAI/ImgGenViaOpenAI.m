@@ -8,7 +8,7 @@ function I = ImgGenViaOpenAI(description,n,api_key)
 % api_key gets from the webpage openai.com
 %% Input test
 if ~isstring(description)&&~ischar(description) , error("wrong description!"); end
-if ~isinteger(n)||(isinteger(n)&&(n<1||n>=4)), error("wrong n!"); end
+if ~isinteger(uint8(n))||(isinteger(n)&&(n<1||n>=4)), error("wrong n!"); end
 if ~isstring(api_key)&&~ischar(api_key) , error("wrong api_key!"); end
 %% python environment test
 pe = pyenv;% need a python environment
